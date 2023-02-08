@@ -1,0 +1,373 @@
+
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,206,184,1) 100%);
+
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-btw {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.p10 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.p24 {
+    padding: 24px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.w150{
+    width: 150px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20{
+    margin-top: 25px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.gap50 {
+    gap: 50px;
+}
+.gapSmall {
+    gap: 20px
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+.hidden{
+    display: none;
+}
+/*.main{*/
+/*    width: 250px;*/
+/*    height: 350px;*/
+/*    border: 1px solid black;*/
+/*    margin: 20px;*/
+/*    padding: 20px;*/
+
+
+/*}*/
+
+input{
+    margin: 20px;
+}
+/*.main2{*/
+/*    width: 1000px;*/
+/*    height: 350px;*/
+/*}*/
+
+.slider{
+   height: 400px;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.foto {
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*.box img {*/
+
+/*    width: 100%;*/
+
+/*}*/
+img{
+    height: 200px;
+    padding: 10px;
+}
+
+.space{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.listasIngridientu{
+
+    max-height: 100px;
+    border: 1px solid darkgrey;
+    overflow: hidden;
+}
+span{
+
+    margin: 0;
+    font-size: 11px;
+
+}
+
+.main{
+    height: 490px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: wheat;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.toolbar{
+    padding: 8px;
+    /*background-color: #858585;*/
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(111,138,121,1) 50%, rgba(48,48,48,1) 100%);
+}
+a {
+    text-decoration: none;
+
+}
+
+a h3{
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    color: #262626;
+    box-shadow: 2px 2px 4px #000000;
+    transition: ease-in-out 0.2s;
+    border-radius: 5px;
+
+}
+
+a h3:hover{
+    color: #ff6a00;
+    transform: scale(1.02);
+
+
+}
+
+
+
+.produktai{
+    min-height: 150px;
+}
+
+.ispejimas{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    text-shadow: 1px 1px 3px #000000;
+
+}
+
+.filter{
+    background-color: #c7aaf5;
+}
+
+
+
+.box {
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: wheat;
+    box-shadow: 2px 2px 4px #000000;
+    transition: ease-in-out 0.1s;
+
+}
+
+.box:hover {
+    transform: scale(1.01);
+
+}
+
+textarea{
+    max-height: 150px;
+    max-width: 300px;
+    width: 300px;
+    height: auto;
+}
+
+label{
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.info{
+    padding: 25px;
+}
+
+
+.wrapper {
+    height: 500px;
+
+    width: 20px;
+    border: 1px solid black;
+}
+
+.wrapper div {
+    height: 0;
+    width: 100%;
+    background-color: mediumspringgreen;
+}
+
+.weapons img {
+    height: 100px;
+    width: 100px;
+}
+
+.spanBtn {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.spanBtn:hover {
+    background-color: mediumspringgreen;
+}
+
+
+.male {
+    background-color: blue;
+    height: 25px;
+    width: 100%;
+}
+
+.female {
+    background-color: pink;
+    height: 25px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+
+}
+

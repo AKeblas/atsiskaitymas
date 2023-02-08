@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pirmas</title>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body class="">
+<div class="d-flex flex-column a-center">
+    <div class="toolbar d-flex j-around w100">
+        <div><a href=""><h3>Add recipe</h3></a></div>
+        <div><a href="./recipes.html"><h3 class="count">All recipes</h3></a></div>
+    </div>
+    <div class="d-flex p24 gap50 w70">
+        <div class="main d-flex flex1 wrap flex-column p10 j-around">
+            <div>
+                <label for="title">Title:</label>
+                <input id="title" type="text" placeholder="Title">
+            </div>
+            <div  class="d-flex a-center">
+                <div>
+                    <label for="ing">Ingridients:</label>
+                    <input id="ing" type="text" placeholder="Ingridients">
+                </div>
+                <button>ADD</button>
+                <div class="listasIngridientu ml10"></div>
+
+            </div>
+            <div class="d-flex">
+                <label class="mr10" for="des">Description:</label>
+                <textarea id="des" name="Description" rows="6" cols="50"></textarea>
+            </div>
+            <div>
+                <label for="cal">Calories:</label>
+                <input id="cal" min="0" type="number" placeholder="Calories">
+            </div>
+            <div class="d-flex flex-column a-center gap">
+                <button>Get photo</button>
+                <button>Watch preview / Update info</button>
+            </div>
+
+
+        </div>
+        <div class="main d-flex flex1 wrap flex-column p10 bold">
+            <div class="d-flex">
+                <div class="space">
+                    <img class="nuotrauka p10" src="https://png.pngtree.com/element_our/png/20180930/food-icon-design-vector-png_120564.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Title: </h2>
+                    <p>Description: </p>
+                </div>
+            </div>
+            <div class="produktai mt10">Ingredients:
+                <div class="ingredients mt10"></div>
+            </div>
+            <div>Calories: </div>
+            <div class="d-flex flex-column a-center mt10 gap">
+                <button>Add recipe to list</button>
+                <button class="clear">Clear preview</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-flex j-center ispejimas">
+    <h4></h4>
+    <h5></h5>
+</div>
+
+</body>
+</html>
