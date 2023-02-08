@@ -22,16 +22,19 @@ getRecipes(recipes)
 
 btn[0].onclick =()=>{
     const values = {
-        title: inputs[0].value,
-        ingredients: inputs[1].value,
-        calories: Number(inputs[2].value),
+        title: inputs[0].value.trim().toLowerCase(),
+        ingredients: inputs[1].value.toLowerCase(),
+        calories: Number(inputs[2].value)
     }
 
     container.innerHTML =``
+    console.log(recipes)
+
+
     let result = recipes
 
     if(inputs[0].value) result = recipes.filter(item => item.title === values.title)
-    if(inputs[1].value) result = result.filter(item => item.ingredient.includes(" " + inputs[1].value))
+    if(inputs[1].value) result = result.filter(item => item.ingredient.includes(" " + inputs[1].value.trim().toLowerCase()))
     if(inputs[2].value) result = result.filter(item => item.calories === values.calories)
     getRecipes(result)
 }
